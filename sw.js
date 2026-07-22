@@ -2,7 +2,7 @@
 // Strategie: HTML/stránka = network-first (online vždy čerstvý obsah, offline fallback),
 // statické assety (ikony, manifest) = cache-first. Verze se mění při každém deployi,
 // takže se SW spolehlivě aktualizuje a stará cache se smaže.
-const VERSION = '20260721-101648';
+const VERSION = '20260722-192817';
 const CACHE = 'mezno-' + VERSION;
 const ASSETS = [
   './',
